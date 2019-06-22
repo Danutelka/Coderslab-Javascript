@@ -1,0 +1,87 @@
+body {
+  font-size: 14px;
+  line-height: 28px;
+}
+
+/*Style do zadania 1*/
+.cart-item {
+  border: 1px solid #000;
+  width: 400px;
+  margin: 20px;
+  padding: 20px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.cart-updated {
+   border: 2px solid green;
+}
+.added {
+  color: #0086FF;
+    background-color: #bbb;
+}
+.added:hover {
+    background-color: #bbb;
+    cursor: default;
+ }
+
+
+.item-desc {
+  float: left;
+}
+.item-qty {
+  float: left;
+  margin-left: 50px;
+}
+.update-container {
+  float: right;
+  overflow: hidden;
+}
+button {
+  background: #0086FF;
+  border: none;
+  border-radius: 4px;
+  padding: 0 10px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 28px;
+  transition: .2s all linear;
+  outline: none;
+  cursor: pointer;
+ }
+button:hover {
+    background-color: darken(#0086FF, 10%);
+  }
+
+/*Style do zadania2*/
+ul {
+  margin: 20px;
+    list-style: none;
+}
+li {
+  width: 300px;
+  border: 1px solid #333;
+  margin-bottom: 20px;
+}
+h2 {
+    margin:0;
+  background: #333;
+  color: #fff;
+  padding: 20px;
+ }
+.expand {
+  color: #fff;
+  float: right;
+}
+.container {
+  height: 100px;
+  padding: 25px;
+  position: relative;
+  box-sizing: border-box;
+  display: none;
+ }
+ .close {
+    color: green;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+  }

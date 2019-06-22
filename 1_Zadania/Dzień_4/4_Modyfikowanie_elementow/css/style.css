@@ -1,0 +1,25 @@
+/*Do zadania 1*/
+#addUser, #age {
+    margin-top:10px;
+    padding:5px;
+}
+
+/*DO zadania 2*/
+body {
+  padding:20px;
+}
+
+div {
+  padding:10px;
+  margin:10px auto;
+  border:1px solid #ccc;
+  background-color:#ddd;
+}
+
+span {
+  color:#fff;
+  padding:5px 10px;
+  background-color: #000;
+  display:block;
+  width:80px;
+}

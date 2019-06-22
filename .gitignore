@@ -1,0 +1,8 @@
+.idea
+<<<<<<< HEAD
+*~
+0.example
+=======
+*.*~
+node_modules
+>>>>>>> a751d5b97bc879bbb55c746e185a44c967d1e104

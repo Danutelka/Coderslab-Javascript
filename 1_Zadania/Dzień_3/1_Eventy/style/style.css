@@ -1,0 +1,33 @@
+
+.menu li {
+    display: inline-block;
+    position: relative;
+}
+
+.menu ul {
+    list-style: none;
+    width: 100%;
+}
+
+
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    border: black 2px solid;
+    margin: 20px;
+}
+
+.big {
+    width: 80%;
+    height: 300px;
+    margin: 20px 10%;
+}
+
+.element {
+    padding: 50px;
+    border-radius: 5px;
+    border: black 2px solid;
+    margin: 20px;
+}

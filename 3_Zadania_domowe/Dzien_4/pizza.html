@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <title>Pizza</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+</head>
+<body>
+<nav class='navbar navbar-default'>
+    <div class='container'>
+        <div class="navbar-header">
+        </div>
+    </div>
+</nav>
+
+
+<div class="container">
+    <div class='col-xs-12 col-sm-6 col-sm-offset-3'>
+        <div class='page-header'>
+            <h1>Dodatki</h1>
+            <p>
+                Kwota za dodatki: <span id="price">0zł</span>
+            </p>
+        </div>
+
+        <div class='panel'>
+            <div class='panel-body'>
+                <form>
+                    <div class="checkbox">
+                        <label><input type="checkbox">Wszystkie dodatki</label>
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" data-price="3.50">Dodatkowy ser, 3,50 zł</label>
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" data-price="2.20">Dodatkowy sos, 2,20 zł</label>
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" data-price="5.00">Dodatkowa szynka, 5 zł</label>
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" data-price="4.10">Ananas, 4,10 zł</label>
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" data-price="3.50">Pieczarki, 3,50 zł</label>
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox">Wyczyść</label>
+                    </div>
+                    <br>
+                    <p>
+                        <button class='btn btn-primary'>Submit</button>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+.menu{
+    border: solid 2px black;
+    border-radius: 5px;
+}
+
+.topMenu{
+    display: inline-block;
+}
+
+.banner{
+    background-color: #2aabd2;
+}
