@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
     li.classList.add('big'); // dodajemy do elementu li klasę big
 
     // ppkt. 4
-    var li = document.querySelectorAll('.exercise.ex1 li:nth-child(3n)')
+    var li = document.querySelectorAll('.exercise.ex1 li:nth-child(3n)');
 
     li.forEach(function(element) {
         element.style.textDecoration = 'underline';
