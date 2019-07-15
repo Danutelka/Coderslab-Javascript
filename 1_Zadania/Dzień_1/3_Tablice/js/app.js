@@ -24,7 +24,7 @@ function multiply(array) {
 console.log(add(arr));
 console.log(multiply(arr) == 120);
 
-
+// zad A3
 function distFromAverage(array) {
     var average = add(array) / array.length;
     var result = [];

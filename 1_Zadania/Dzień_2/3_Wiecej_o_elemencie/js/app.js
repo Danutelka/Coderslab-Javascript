@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function() {
         element.style.textDecoration = 'underline';
     }); 
 
-    //zad2 15:27
+    //zad2 
     var ex2 = document.querySelector('.exercise.ex2');
     
     var options = ex2.querySelectorAll('option');
