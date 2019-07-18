@@ -28,20 +28,36 @@ function createIdentityMatrix(rows, columns) {
 console.log(createIdentityMatrix(4,4));
 
 //zad3
+/*
 function Tree (type) {
     this.type =type;
     
     this.bloom = function() {
-        console.log ("I'm blooming")
+        console.log (this.type + "I'm blooming")
     }
-}
-   
+}  
 var treeOne = new Tree('choinka')
 var treeTwo = new Tree('liściaste')
 var treeThree = new Tree('kaktus')
 
 console.log(treeOne.hasOwnProperty("bloom"));
 console.log(treeThree.type);
+*/
+
+function Tree (type) {
+    return type + " " +"I'm blooming";
+} 
+var result = Tree ("glon");
+console.log(result);
+
+/*   
+var treeOne = new Tree('choinka')
+var treeTwo = new Tree('liściaste')
+var treeThree = new Tree('kaktus')
+
+console.log(treeOne.hasOwnProperty("bloom"));
+console.log(treeThree.type);
+*/
 
 //zad 1 dod
 

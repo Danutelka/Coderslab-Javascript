@@ -3,8 +3,7 @@
  * Prześledź krok po kroku każdą linijkę kodu. Każdą!
  * Spróbuj napisać komentarze dla każdej z linijek kodu
  */
-
-
+/*
 //Twój komentarz ...
 function jeden() {
 
@@ -30,3 +29,16 @@ function jeden() {
 
 //Twój komentarz ...
 jeden()
+
+*/
+
+function jeden() {
+    var zmienna1 = 1;
+    function dwa() {
+        console.log(zmienna1);
+        var zmienna2 = 3;
+    }
+    dwa();                      // funkcja jeden nie ma dostepu do zmiennej podfunkcji dwa
+    console.log(zmienna2)
+}
+jeden();

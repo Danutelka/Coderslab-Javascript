@@ -90,13 +90,21 @@ function factors(number) {
 console.log(factors(2));
 console.log(factors(0));
 
-/* zad B4
+//zad B4
 function getMissingElement(array) {
+    var missing = 0;
+    for (var i = 0; i < array.length; i++) {
+        if (array[i]+1 != array[i+1]) {
+            missing = array[i] + 1;
+            console.log('Brakująca liczba to:', missing);
+        }
+    }
+    if (missing === 0) {
+        console.log(null);
+    }
     
 }
 
-getMissingElement([1,2,3,4,5,6,7]) => null
-getMissingElement([6,7,8,10,11,12,13,14,15]) => 9
-getMissingElement([-4,-3,-2,0,1,2,3,4]]) => -1
-
-*/
+console.log(getMissingElement([1,2,3,4,5,6,7])); // => null
+console.log(getMissingElement([6,7,8,10,11,12,13,14,15])); // => 9
+console.log(getMissingElement([-4,-3,-2,0,1,2,3,4])); // => -1

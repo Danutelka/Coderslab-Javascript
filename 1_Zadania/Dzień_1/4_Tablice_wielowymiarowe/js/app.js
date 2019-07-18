@@ -38,3 +38,18 @@ var arr2 = [
 console.log(checkArray(arr2));
 
 // zad B1
+function fun2(array) {
+    var result = [];
+    for (var i=0; i <array.length;i++) {
+        var array2 = array[i];
+        result.push(array2)
+    }
+    return result
+}
+
+var arr = [];
+arr[0]=[3, 4, 56, 773, 1];
+arr[1]=[7, 12, 0, 98, 34, 381];
+arr[2]=[12, 66, 96, 54, 10];
+
+console.log(fun2(arr));

@@ -4,6 +4,7 @@
  * Spróbuj napisać komentarze dla każdej z linijek kodu
  */
 
+ /*
 //Twój komentarz ...
 function sortArray() {
 
@@ -22,3 +23,24 @@ function sortArray() {
 
 //Twój komentarz ...
 sortArray();
+*/
+
+/Twój komentarz ...
+function sortArray() {
+
+    //Twój komentarz ...
+    var points = [41, 3, 6, 1, 114, 54, 64];
+
+    //Twój komentarz ...
+    points.sort(function(a, b) {
+        //Twój komentarz ...
+        return a-b; // jezeli dac b - a to bedzie sortowac odwrotnie
+    });
+
+    //Twój komentarz ...
+    return points;
+}
+
+//Twój komentarz ...
+console.log(sortArray());
+
