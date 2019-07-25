@@ -1,5 +1,8 @@
-/**
- * Created by Jacek on 2016-01-11.
+/*
+W pliku zadanieA2.js – jest przykładowa funkcja obliczająca proste równania. 
+Niestety nie działa ona dobrze. Znajdź błąd i go napraw, tak żeby funkcja działała. 
+Dopisz dodatkowe testy, żeby sprawdzić, czy wszystkie przypadki działają. 
+Zadanie rozwiąż w tym samym pliku.
  */
 
 

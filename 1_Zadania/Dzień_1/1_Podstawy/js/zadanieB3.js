@@ -1,3 +1,7 @@
+/*
+Zajrzyj do pliku zadanieB3.js. Znajdziesz tam kod. Przeanalizuj go i opisz w komentarzu
+ zauważone błędy. Postaraj się nie uruchamiać kodu zanim nie znajdziesz błędów.
+*/
 //Komentarze do kodu umieść bezpośrednio pod linią w której znaleziono błąd
 
 var i = 1;
@@ -12,7 +16,6 @@ if(year % 4 == 0) { //powinno być samo modulo %4 ==0
 } else { //klamerki
     console.log('Rok nieprzestępny');
 }
-
 
 console.log('Błędy poprawione, więc ten tekst będę widzieć w konsoli po uruchomieniu skryptu HURRRA!!!');
 // kropka przed hurra o skasowania

@@ -1,3 +1,11 @@
+/* zadanie 4
+W pliku zadanie04.js możesz znaleźć przykładowy konstruktor dla robota. 
+Konstruktor oczekuje, że podasz tylko imię robota. 
+Wszystkie roboty mają od razu kilka metod (metody dodane są przez prototypy).
+ twórz kilka robotów i sprawdź, czy w napisanym kodzie nie ma błędów.
+*/
+
+
 var Robot = function(name) {
   this.name = name;
   this.isFunctional = true;

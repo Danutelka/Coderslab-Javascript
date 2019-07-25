@@ -1,3 +1,14 @@
+/*
+Zajrzyj do pliku zadanieA1.js. Znajdziesz tam kod funkcji, która losuje liczbę z 
+przedziału 0–99. Dopisz kod, który wyświetli następujące informacje w konsoli:
+    Czy liczba jest parzysta czy nieparzysta.
+    Wszystkie dzielniki liczby, np. dla 10 wyświetli 10, 5, 2, 1 
+    (liczby mają wyświetlić się w jednej linii).
+    Wyświetli wynik potęgowania liczby, wykładnikiem potęgi ma być 
+    reszta z dzielenia tej liczby przez 5.
+*/
+
+
 function mathInfo() {
     var randomNumber = Math.floor(Math.random() * 100);
     console.log('Wylosowana liczba to:', randomNumber)

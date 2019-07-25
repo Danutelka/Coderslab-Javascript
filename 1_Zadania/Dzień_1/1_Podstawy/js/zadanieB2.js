@@ -1,7 +1,17 @@
-/**
- * Created by Jacek on 2016-01-11.
+/*
+Zajrzyj do pliku zadanieB2.js. Jest tam napisany szkielet funkcji przyjmującej trzy liczby.
+Dopisz ciało funkcji tak, żeby zwracać true (wartość booleanowską), jeżeli z podanych 
+liczb można stworzyć trójkąt , a false jeżeli nie. Tę figurę geometryczną można zbudować 
+z trzech linii tylko wtedy, gdy suma długości dwóch z nich jest większa niż długość 
+trzeciej linii, czyli:
+a + b > c
+c + b > a
+a + c > b
+Użyj if, else oraz else if. Następnie zmień rozwiązanie tak, 
+aby zawrzeć wszystkie te punkty w jednym zapytaniu if (użyj operatorów logicznych). 
+Pamiętaj żeby użyć słowa kluczowego return do zwracania danych z funkcji. 
+Zadanie rozwiąż w tym samym pliku.
  */
-
 
 function canCreateTriagle(a, b, c) {
     // Do liczb odwołuj się przez zmienne a, b i c.

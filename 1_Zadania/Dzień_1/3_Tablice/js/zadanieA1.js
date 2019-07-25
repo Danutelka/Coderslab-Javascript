@@ -1,5 +1,9 @@
-/**
- * Created by Jacek on 2016-01-11.
+/* zadanie A1
+ Zajrzyj do pliku zadanieA1.js – jest tam napisany szkielet funkcji przyjmującej tablicę.
+  Dopisz ciało funkcji w taki sposób, żeby zwracać true (wartość booleanowską), 
+  kiedy tablica ma liczby rosnące (każda następna jest większa od poprzedniej), 
+  a false – jeżeli nie. Pamiętaj, żeby użyć słowa kluczowego return do zwracania 
+  danych z funkcji.
  */
 
 
