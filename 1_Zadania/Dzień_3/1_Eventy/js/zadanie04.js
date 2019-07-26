@@ -1,5 +1,8 @@
-/**
- * Created by Jacek on 2016-01-12.
+/* zadanie 4
+Na stronie znajdują się trzy guziki i trzy liczniki (elementy span o klasie counter). 
+Do każdego guzika dopisz event, który spowoduje, że przypisany do niego licznik zwiększy 
+swoją wartość o 1 po kliknięciu w guzik. Pamiętaj, żeby wszystko pisać w evencie 
+DOMContentLoaded.
  */
 document.addEventListener("DOMContentLoaded", function() {
     var button1 = document.getElementById('button1');

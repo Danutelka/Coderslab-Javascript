@@ -1,5 +1,9 @@
-/**
- * Created by Jacek on 2016-01-12.
+/* zadanie 7
+Na stronie znajduje się jeden element div. Napisz dla niego event, który będzie wypisywał
+położenie kursora myszy w chwili, gdy znajduje się nad tym elementem. Wyszukaj zarówno
+położenie kursora globalne (czyli odległość od górnego lewego rogu okna), jak i lokalne 
+(czyli odległość od lewego górnego rogu elementu). Pamiętaj, żeby wszystko pisać w 
+evencie DOMContentLoaded.
  */
 document.addEventListener('DOMContentLoaded', function () {
     var box = document.getElementById('box');

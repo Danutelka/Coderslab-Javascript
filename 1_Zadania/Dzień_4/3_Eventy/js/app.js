@@ -1,5 +1,16 @@
 $(document).ready(function() {
-    // zad 1
+    /* zadanie 1
+    Znajdź w pliku index.html trzy buttony w elemencie o klasie hero-buttons. 
+    Stwórz funkcję, w której wykonaj następujące czynności:
+    1 - ustaw każdy z trzech przycisków pod inną zmienną,
+    2 - dla elementu pierwszego ustaw event click, który po kliknięciu wyświetli w 
+    konsoli napis "kliknięto mnie",
+    3 - dla elementu drugiego ustaw event click, który po kliknięciu wyświetli w 
+    konsoli napis "kliknięto mnie, ale już drugi raz nie dam się kliknąć",
+    4 - dla trzeciego wywołaj metodę off, która odczepi wszystkie eventy z wszystkich 
+    przycisków.
+    Przetestuj działanie Twojej funkcji.
+    */
     var btnHero1 = $('button.ironMan-btn');
     var btnHero2 = $('button.thor-btn');
     var btnHero3 = $('button.wolverine-btn');
@@ -15,7 +26,15 @@ $(document).ready(function() {
         btnHero2.off('click');
         btnHero3.off('click');
     });
-    // zad 3
+
+    /* zadanie 3
+    Znajdź w pliku html sekcję o klasie superhero-description, a następnie napisz funkcję,
+    w której:
+    1 - Ukryj domyślnie wszystkie elementy dd.
+    2 - Po kliknięciu w element dt spraw, by elementy dd:
+        1 - rozwijały się, jeśli są ukryte,
+        2 - zwijały się, jeśli są widoczne.
+    */
     var desc = $('.superhero-description');
     // chowamy dd
     desc
@@ -29,7 +48,14 @@ $(document).ready(function() {
             .toggle()
         ;
     });
-    // zad 4 
+
+    /* zadanie 4
+    W pliku index.html znajdź formularz o klasie login. W pliku app.js stwórz funkcję, 
+    która będzie reagować na wciśnięcie przycisku show-hide-btn. Na początek ustaw event 
+    tak, aby po wciśnięciu wypisał w konsoli "działam". Następnie funkcja ma sprawdzać, 
+    jakiego typu jest element przechowujący hasło. Jeśli password – zmień type na text. 
+    Jeśli text – zmień na password.
+    */
     var btn = $('.show-hide-btn');
     var password = $('.user-pass');
     btn.on('click', function (event) {
@@ -40,7 +66,10 @@ $(document).ready(function() {
             password.attr('type', 'text')
         }
     })
-    // zad 5
+
+    /* zadanie 5
+    Po najechaniu kursorem myszy na element w menu wypisz w konsoli tekst "Hura".
+    */
     var menu = $('.menu');
         menu
             .find('a')
@@ -48,7 +77,14 @@ $(document).ready(function() {
     menu.on('mouseenter', function(event) {
         console.log('hurra');
     });
-    // zad 6
+
+    /* zadanie 6
+    Znajdź w pliku index.html formularz o klasie login, a następnie napisz funkcję, 
+    w której:
+    1 - ustaw lekki cień wewnętrzny po kliknięciu wewnątrz inputa,
+    2 - zmień background-color na szary po wyjściu kursorem z pola input.
+    */
+   
     var formularz = $('form.Login');
     var inputy = formularz.find('input');
         inputy.on('click', function(event){

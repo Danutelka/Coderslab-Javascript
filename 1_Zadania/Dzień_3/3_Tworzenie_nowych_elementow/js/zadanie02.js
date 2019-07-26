@@ -1,6 +1,10 @@
-/**
- * Created by Jacek on 2016-01-12.
+/* zadanie 2
+Na stronie przypisanej do zadania znajduje się lista i guzik. 
+Dopisz odpowiednie eventy do nich w taki sposób, żeby po kliknięciu w guzik dodał 
+się nowy element do listy. Element powinien mieć w sobie informacje na temat tego,
+ ile elementów jest w liście w chwili jego dodania.
  */
+
 document.addEventListener('DOMContentLoaded', function() {
     var button = document.querySelector('a.button');
     var menu = document.querySelector('ul.menu');

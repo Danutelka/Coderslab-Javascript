@@ -1,6 +1,9 @@
-/**
- * Created by Jacek on 2016-01-12.
+/* zadanie 5
+Na stronie znajdują się trzy guziki i jeden licznik. Napisz jeden wspólny event dla 
+wszystkich guzików, który spowoduje, że po kliknięciu w guzik licznik zwiększy wartość 
+o jeden. Pamiętaj, żeby wszystko pisać w evencie DOMContentLoaded.
  */
+
 document.addEventListener('DOMContentLoaded', function () {
     var button1 = document.getElementById('button1');
     var button2 = document.getElementById('button2');
