@@ -14,3 +14,45 @@ z kodem HTML). Spróbuj pozmieniać atrybuty name i zobacz, jak się zmieniają 
  dane (np. sprawdź, co się stanie, jak dwa inputy mają taką samą nazwę). Uwaga, jest
  to ważne miejsce współpracy frontendowców z backendowcami.
  */
+document.addEventListener('DOMContentLoaded', function() {
+    var email = document.getElementById('email');
+    var name = document.getElementById('name');
+    var surname = document.getElementById('surname');
+    var pass1 = document.getElementById('pass1');
+    var pass2 = document.getElementById('pass2');
+    var button = document.querySelector('button');
+    var cb = document.getElementById('agree');
+
+    button.addEventListener('click', function (event) {
+          if (email.value.indexOf("@")<= -1) {
+              event.preventDefault();
+              console.log('email nie poprawny');
+              return;
+          }
+          if(name.value.length < 5 ) {
+              event.preventDefault();
+              console.log('imie za krotke');
+              return;
+          }
+          if (surname.value.length < 5) {
+              event.preventDefault();
+              console.log("nazwisko za krotke");
+              return;
+          }
+          if (pass1.value != pass2.value){
+              event.preventDefault();
+              console.log('hasla nie sa identyczne');
+              return;
+          }
+          if (pass1.value.length == 0) {
+              event.preventDefault();
+              console.log('podaj haslo');
+              return;
+          }
+          if (cb.checked == false) {
+              event.preventDefault();
+              console.log("daj na flage");
+              return;
+          }
+    });
+});
